@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div id="sidebar">
+
+            <div class="sidebar-icon" id="logo">
+
+                <img src="./Images/view-dashboard-outline.svg" alt="dashboard icon" class="sidebar-img big">
+                <label class="sidebar-text title">Dashboard<label>
+
+            </div>
+
+            <nav class="sidebar-icon" id="top-icon">
+
+                <ul>
+                    <li>
+                        <img src="./Images/home-outline.svg" alt="home icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">Home</label>
+                    </li>
+                    <li>
+                        <img src="./Images/card-account-details-outline.svg" alt="profile icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">Profile</label>
+                    </li>
+                    <li>
+                        <img src="./Images/message-reply-outline.svg" alt="messages icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">Messages</label>
+                    </li>
+                    <li>
+                        <img src="./Images/history.svg" alt="history icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">History</label>
+
+                    </li>
+                    <li>
+                        <img src="./Images/file-multiple-outline.svg" alt="task icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">Tasks</label>
+                    </li>
+                    <li>
+                        <img src="./Images/account-group-outline.svg" alt="community icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">Communities</label>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <nav class="sidebar-icon" id="bottom-icon">
+
+                <ul>
+                    <li>
+                        <img src="./Images/cog-outline.svg" alt="setting icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">Settings</label>
+                    </li>
+                    <li>
+                        <img src="./Images/help-box-outline.svg" alt="support icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">Support</label>
+                    </li>
+                    <li>
+                        <img src="./Images/shield-check-outline.svg" alt="privacy icon" class="sidebar-img little">
+                        <label class="sidebar-text icon">Privacy</label>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <div id="header">
+
+            <div class="header-background" id="top-header">
+
+                <div class="left-header" id="search-side">
+
+                    <img src="./Images/magnify.svg" alt="search icon" class="header-img">
+                    <input type="search" id="search" name="search">
+
+                </div>
+
+                <div class="right-header" id="icon-user">
+
+                    <img src="./Images/bell-ring-outline.svg" alt="notification icon" class="header-img">
+                    <img src="./Images/girl-red-little.png" alt="avatar-little" class="avatar-little header">
+                    <p class="content-text title little no-padding">Morgan Oakley</p>
+
+                </div>
+
+            </div>
+
+            <div class="header-background" id="bottom-header">
+
+               <div class="left-header" id="user">
+
+                    <img src="./Images/girl-red-big.png" alt="avatar-big" class="avatar-big header">
+                    <p class="content-text title bigger" id="hi-before">Morgan Oakley (@morgan)</p>
+
+               </div>
+
+               <div class="right-header" id="buttons">
+
+                    <button type="button">New</button>
+                    <button type="button">Upload</button>
+                    <button type="button">Share</button>
+
+               </div>
+
+            </div>
+
+        </div>
+
+        <div id="content-area">
+
+            <div class="element-content" id="main-content">
+
+                <p class="content-text title big left ">Your projects</p>
+                <div id="projects">
+                
+                    <div class="card">
+
+                        <div class="left-card"></div>
+                        <div class="right-card">
+
+                            <p class="content-text title card-p">Super Cool Project</p>
+                            <p class="content-text paragraph big card-p">Sed tempus ut lacus ur scelerisque. Suspendisse
+                                                            sollicitudin nibh erat, id facillisis felis accusan nec.
+                            </p>
+
+                            <div class="card-img">
+
+                                <img src="./Images/star-plus-outline.svg" alt="favourite icon" class="card-icon-img">
+                                <img src="./Images/eye-plus-outline.svg" alt="viewed icon" class="card-icon-img">
+                                <img src="./Images/share-variant-outline.svg" alt="share icon" class="card-icon-img">
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+
+                        <div class="left-card"></div>
+                        <div class="right-card">
+
+                            <p class="content-text title card-p">Less Cool Project</p>
+                            <p class="content-text paragraph big card-p">Nullam condisentum ipsum ut lects vehicula consectetur.
+                                                        Quisque sed dolor tincidunt, consectur sapien et, facillisis dolor. Duis 
+                                                        sem purus, dignissim ut sapien in, varius pellentesque lacus.
+                            </p>
+
+                            <div class="card-img">
+
+                                <img src="./Images/star-plus-outline.svg" alt="favourite icon" class="card-icon-img">
+                                <img src="./Images/eye-plus-outline.svg" alt="viewed icon" class="card-icon-img">
+                                <img src="./Images/share-variant-outline.svg" alt="share icon" class="card-icon-img">
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+
+                        <div class="left-card"></div>
+                        <div class="right-card">
+
+                            <p class="content-text title card-p">Impossible App</p>
+                            <p class="content-text paragraph big card-p">In hac habitasse platea dicturmst. Vivamus dictum rutrum 
+                                                            arcu, a placerat velit sagittis id.
+                            </p>
+                            
+                            <div class="card-img">
+
+                                <img src="./Images/star-plus-outline.svg" alt="favourite icon" class="card-icon-img"> 
+                                <img src="./Images/eye-plus-outline.svg" alt="viewed icon" class="card-icon-img">
+                                <img src="./Images/share-variant-outline.svg" alt="share icon" class="card-icon-img">
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+
+                        <div class="left-card"></div>
+                        <div class="right-card">
+
+                            <p class="content-text title card-p">Easy Peasy App</p>
+                            <p class="content-text paragraph big card-p">Etiam cursus eros ac efficitur fringilla. Vestibulum 
+                                                        dignissim urna eget accusan aliquam. Curabitur digissim nisi in tortor 
+                                                        commodo, ac bibendum magna tincidunt.
+                            </p>
+
+                            <div class="card-img">
+
+                                <img src="./Images/star-plus-outline.svg" alt="favourite icon" class="card-icon-img">
+                                <img src="./Images/eye-plus-outline.svg" alt="viewed icon" class="card-icon-img">
+                                <img src="./Images/share-variant-outline.svg" alt="share icon" class="card-icon-img">
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+
+                        <div class="left-card"></div>
+                        <div class="right-card">
+
+                            <p class="content-text title card-p">Ad blocker</p>
+                            <p class="content-text paragraph big card-p">Quique eget rutrum nisl. Nam augue justo, cursus vitae 
+                                                        metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.
+                            </p>
+
+                            <div class="card-img">
+
+                                <img src="./Images/star-plus-outline.svg" alt="favourite icon" class="card-icon-img">
+                                <img src="./Images/eye-plus-outline.svg" alt="viewed icon" class="card-icon-img">
+                                <img src="./Images/share-variant-outline.svg" alt="share icon" class="card-icon-img">
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+
+                        <div class="left-card"></div>
+                        <div class="right-card">
+
+                            <p class="content-text title card-p">Money Maker</p>
+                            <p class="content-text paragraph big card-p">Prasent convallis, libero quis congue elementum, nunc ante
+                                                        faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque
+                                                        mollis nec sem vel aliquam.
+                            </p>
+
+                            <div class="card-img">
+
+                                <img src="./Images/star-plus-outline.svg" alt="favourite icon" class="card-icon-img">
+                                <img src="./Images/eye-plus-outline.svg" alt="viewed icon" class="card-icon-img">
+                                <img src="./Images/share-variant-outline.svg" alt="share icon" class="card-icon-img">
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="element-content" id="announcements">
+
+                <p class="content-text title big right top">Announcements</p>
+                <div class="right-card-little" id="announcement-card">
+
+                    <div class="announcement-div">
+
+                        <p class="content-text title little first" >Site Maintenance</p>
+                        <p class="content-text paragraph little">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec
+                                                    hendrerit sodales congue...
+                        </p>
+                    </div>
+
+
+                    <hr>
+
+                    <div class="announcement-div">
+
+                        <p class="content-text title little">Community Share Day</p>
+                        <p class="content-text paragraph little">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam 
+                                                            dictum accumsan portitor...
+                        </p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="announcement-div">
+
+                        <p class="content-text title little">Update Privacy Policy</p>
+                        <p class="content-text paragraph little last">Phasellus efficitur nisi eget elit consectur, eget condimentum 
+                                                                ante  auctor. Cras fringilla sagittis sem in mattis...
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="element-content" id="trending">
+
+                <p class="content-text title big right bottom">Trending</p>
+                <div class="right-card-little" id="trending-card">
+
+                    <div class="trending-div">
+
+                        <div class="container-img">
+
+                            <img src="./Images/boy-blond-little.png" alt="avatar-blond boy" class="avatar-little trending">
+
+                        </div>
+
+                        <div class="user-trending">
+
+                            <label class="content-text userName">@tegan</label>
+                            <p class="content-text paragraph little bottom">World Peace Builder</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="trending-div">
+                    
+                        <div class="container-img">
+
+                            <img src="./Images/girl-red-little.png" alt="avatar-ginger girl" class="avatar-little trending">
+
+                        </div>
+
+                        <div class="user-trending">
+
+                            <label class="content-text userName">@morgan</label>
+                            <p class="content-text paragraph little bottom">Super Cool Project</p>
+                            
+                        </div>
+
+
+                    </div>
+
+                    <div class="trending-div">
+
+                        <div class="container-img">
+
+                            <img src="./Images/girl-brown-little.png" alt="avatar-brown girl" class="avatar-little trending">
+
+                        </div>
+
+                        <div class="user-trending">
+
+                            <label class="content-text userName">@kendall</label>
+                            <p class="content-text paragraph little bottom">Life Changing App</p>
+                            
+                        </div>
+
+
+                    </div>
+
+                    <div class="trending-div">
+
+                        <div class="container-img">
+
+                            <img src="./Images/boy-red-little.png" alt="avatar-ginger boy" class="avatar-little trending">
+                        
+                        </div>
+
+                        <div class="user-trending">
+
+                            <label class="content-text userName">@alex</label>
+                            <p class="content-text paragraph little bottom">No Traffic Maker</p>
+                            
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>
